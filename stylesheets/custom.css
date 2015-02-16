@@ -1,0 +1,27 @@
+p
+{	text-align:justify;
+}
+
+span#solnText
+{	font-weight:bold;
+	color:black;
+}
+
+/* ******************************
+	numbers lead to 4
+	****************************** */
+*.ntfbtn
+{	width:150px;
+}
+
+/* ******************************
+	subway blocks
+	****************************** */
+input.swbinpt
+{	width:50px;
+	max:150;
+}
+
+table.swtable td
+{	padding:7px;
+}

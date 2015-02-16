@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>All Numbers Lead to 4</title>
+	<meta name="author" content="ajs">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/custom.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Scripts
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="numleadfour.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">All Numbers Lead To 4</h1>
+			<h5>Can you figure out how?</h5>
+			<hr />
+		</div>
+		<div class="one-third column">
+			<center>
+			<input type="number" id="userNumber" class="ntfbtn">
+			<br /><br />
+			<input type="button" id="pathBtn" onClick="showPathClick();" value="Show Path" class="ntfbtn">
+			<br />
+			<input type="button" id="solnBtn" onClick="showSolnClick();" value="Show Path & Solution" class="ntfbtn">
+			
+			<br />
+			<span id="solnText"></span>
+			</center>
+			<br />
+		</div>
+		<div class="two-thirds column">
+			<p>To play, simply enter a number in the input box and click 'Show Path' to see how your number gets to four. Once you think you've figured it out, enter a number and click 'Show Path & Solution' to see if you are correct.</p>
+			<p>While technically this works for all numbers, let's only play with whole numbers. Numbers less than zero, decimals, fractions, imaginary numbers, and other mathematical oddities add unnecessary complexity. So let's just stick to whole numbers for now. Thanks!</p>
+		</div>		
+	</div><!-- container -->
+</body>
+</html>
